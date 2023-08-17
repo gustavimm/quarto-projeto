@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Epilogue', sans-serif;
+    background: #ECE9FD;
+    padding: 6.0rem 2.3rem 6.6rem;
+    font-size: 1.6rem;
+}
+
+main{
+    max-width: 33.0rem;
+    margin: 0 auto;
+}
+
+/* Deixar tudo flexível e relativo */
+:root{
+
+     font-size: 62.5%; /* 10px */
+}
+ 
+/* REM = Root EM */
+ul{
+    list-style: none;
+}
+
+
+/* Pegamos o primeiro filho da main (parágrafo) com essa pseudoclass */
+main p:first-child{
+    
+    color: #7158EF;
+    font-size: 1.6rem;
+    line-height: 3.2rem; 
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 1.7rem;
+}
+
+
+h1{
+    font-size: 4.0rem;
+    line-height: 4.8rem;
+    color: #090039;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+p{
+    color: rgba(10, 0, 57, 0.64);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    margin-bottom: 3.2rem;
+}
+
+a{  
+    text-decoration: none;
+    color: #090039;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 3.2rem; 
+}
+
+a:hover{
+    color:  #7158EF;
+    transition: all ease 0.3s;
+}
+
+ul{
+    margin-top: 7.2rem;
+}
+
+ul li{
+    color: #090039;
+    display: flex;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.2rem; 
+    max-width: 25.7rem;
+    gap: 3.8rem;
+    margin-bottom: 4.8rem;
+}
+ul li span{
+    color: #090039;  
+    font-size: 7.2rem;
+    font-weight: 800;
+    line-height: 8.0rem; 
+    letter-spacing: -2px;
+    margin-right: 7.2rem;
+}
+
