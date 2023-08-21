@@ -80,15 +80,40 @@ ul li{
     font-weight: 700;
     line-height: 3.2rem; 
     max-width: 25.7rem;
-    gap: 3.8rem;
     margin-bottom: 4.8rem;
 }
 ul li span{
+    font-variant-numeric: tabular-nums;
     color: #090039;  
     font-size: 7.2rem;
     font-weight: 800;
     line-height: 8.0rem; 
     letter-spacing: -2px;
     margin-right: 7.2rem;
+}
+
+@media (min-width : 700px) {
+    body{
+        padding: 8rem;
+    }
+
+   main{
+    max-width: 1020px;
+    display: flex;
+    gap: 10rem;
+   }
+
+   main > div {
+    max-width: 484px;
+   }
+
+   ul li {
+    max-width: 450px;
+    align-items: center;
+   }
+   
+   ul li + li{
+    margin-top: 3.2rem;
+   }
 }
 
